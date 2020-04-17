@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Comic Neue', cursive;
+}
+
+body {
+	font-family: 'Comic Neue';
+	color: #B15441;
+}
+
+header {
+	max-width: 100%;
+}
+
+nav{
+	background-color: #B15441;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	z-index: 2;
+}
+
+#navigation {
+	list-style-type: none;
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#navigation li{
+	float: left;
+	justify-content: space-between;
+}
+
+#navigation li a {
+	text-decoration: none;
+	color: white;
+	padding: 1em;
+	display: inline-block;
+}
+
+ #navigation li a:hover {
+ 	background-color: #5d2c22;
+ 	font-weight: bold;
+ }
+
+.right {
+	float: right;
+}
+
+img {
+	width: 100%;
+}
+
+#admin {
+	width: 80%;
+	margin: auto;
+}
+
+/*----------Site-----------*/
+
+
+#site {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#article {
+	width: 60%;
+}
+
+h1 {
+	font-style: bold;
+	padding: 1em;
+	text-align: center;
+}
+
+h3 {
+	background-color: #B15441;
+	color: white;
+	padding: 0.5em;
+	margin-bottom: 0.6em;
+}
+
+.case-article {
+	border: 1px solid #B15441;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.case-info {
+	width: 35%;
+	padding-top: 25px;
+}
+
+.resume {
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 2.5em;
+	position: relative;
+	color: white;
+	padding: 0.5em;
+	margin : 0;
+}
+
+.date_article {
+	position: relative;
+	bottom: 0.8em;
+}
+
+input [type=text] {
+	padding: 0.5em;
+}
+
+input [type=submit] {
+
+}
+
+input {
+	margin-bottom: 1em;
+}
+
+.case-info h4 {
+	margin: 30px 0 5px 0;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+
+.case-info ul {
+	padding: 0 0.4em 0 0;
+	margin: 0;
+}
+
+.case-info ul li{
+	list-style: none;
+	margin-bottom: 0.2em;
+	font-weight: 300;
+}
+
+.case-info a {
+	color: #B15441;
+	text-decoration: none;
+}
+
+.case-info a:hover {
+	color: #703529;
+	font-weight: bold;
+}
+
+.cleafix {
+	clear: both;
+}
+
+.paragraphe {
+	margin-bottom: 2em;
+}
+
+#article-unique {
+	padding: 2em;
+	width: 70%;
+}
+
+.categorie_article {
+	margin-bottom: 1em;
+} 
+
+#commentaire .auteur {
+	text-align: right;
+	font-style: italic;
+	margin-top: 0.8em;
+}
+
+hr {
+	width: 80%;
+	color: #703529;
+	margin: auto;
+}
+
+#commentaire {
+	padding: 2em;
+}
+
+.comment {
+	margin-top: 40px;
+}
+
+.auteur {
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+/*---------- Footer -------------*/
+
+footer{
+	background-color: #B15441;
+	text-align: center;
+	color: white;
+	padding: 0.8em;
+	list-style-type: none;
+}
+
+footer a:hover {
+	font-weight: bold;
+}
